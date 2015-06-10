@@ -10,5 +10,38 @@
 		<h2>Introduction</h2>
 		<p> Lors de ce chapitre nous allons aborder les principales caractéristiques du web. Nous allons nous interresser dans un premier temps nous allons nous pencher sur les caractéristiques du protocole HTTP. Ensuite nous allons aborder la communication HTTP, de la requete HTTP. Pour finir nous allons parler de la reponse HTTP </p>
 
+		<h2> HTTP? </h2>
+		<p> HTTP signifie "HyperText Transfert Protocol". C'est un protocole de communication basé sur TCP/IP et utilisé pour le Web. Le HTTP ne maintient pas de connexion entre un client et un serveur. Ce protocole est sans état (Stateless). Le HTTP est indépendant du type de données transportées et est sybchrone (une requête = une réponse) </p>
+
+		<h2> Communication HTTP </h2>
+		<p> La machine dite "cliente" va envoyer une requête HTTP à la machine dite "serveur". Le serveur va traiter la demande et renvoyer la réponse HTTP adéquate  au client</p>
+
+		<h2> Requête HTTP </h2>
+		<p> Le format de la requête HTTP est le suivant : 
+			<br>	
+			 [METHODE][URI]HTTP/[VERSION]
+			<br>
+			 [CHAMPS ENTETE au format "CLE:VALEUR"]
+			<br>
+			 Ligne Blanche
+			<br>
+			 [CORPS DE LA REQUETE(optionnel)]
+			<br>
+			Les méthodes possibles sont GET, POST, HEAD, PUT, DELETE, OPTIONS, PATCH, TRACE ...
+		</p>
+		<h2> Réponse HTTP </h2>
+		<p> Il y a plusieurs statut de réponse
+			<br>
+			- 100-199 : Information
+			<br>
+			- 200-299 : Succès
+			<br>
+			- 300-399 : Redirection
+			<br>
+			- 400-499 : Erreur dans la requête
+			<br>
+			- 500-599 : Erreur côté serveur
+			<br>
+		 </p>
 	</body>
 </html>
