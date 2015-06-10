@@ -11,4 +11,37 @@
 		D'ici 2019, on estime que la quantité de data en circulation sera triplée. De nouveaux problèmes de gestion<br/>
 		de ces données se posent alors, soit en termes de stockage, soit en terme de visibilité. 
 	</p>
+	<h2>Développement</h2>
+	<p>
+		Pour répondre à ses nouveaux besoins, on observe l'apparition de nouvelles disciplines comme la DataScience (sciences des données en français, ndlr), dont le but est d'extraire de manière plus efficace de la connaissance à partir d'une grande quantité d'informations. Cette discipline, pour faire son office s'appuie sur d'autres domaines de connaissances comme les mathématiques, les statistiques, l'informatique, la visualisation, les métiers, ...
+	</p>
+	<p>
+		Un des aspects connus de cette displine est la gestion de base de données qualifiées de BigData.
+	</p>
+	<p>
+		Autre application de la DataScience que l'on peut observer tous les jours : le Machine Learning. Une machine, en analysant une multitude de données, est capable d'apprendre. L'exemple le plus connu est celui des plateformes d'achats en ligne (comme Amazon, ndlr) qui, pour un article regardé ou acheté par un client, observe les autres articles achetés ou regardés par des clients ayant consulté le même produit, et génère une liste d'articles potentiellement intéressant. Et ça marche !
+	</p>
+	<p>
+		D'autres outils ont été développés afin de répondre à cette problématique des grandes quantités de donner afin de les gérer dans des applications. 
+	</p>
+	<p>
+		Hadoop est l'un d'entre eux. C'est un framework java destiné à faciliter le développement d'applications ayant une architecture distribuée et scalable. Il permet de traiter des données sur beaucoup de machines à la fois. Son fonctionnement est basé sur un système de fichiers distribué, extensible et portable sur plusieurs machines, afin de permettre le stockage sur des machines équipées de disques durs standards. Hadoop équipe par exemple, un module de Machine-Learning appelé Mahout. Pour traduire de l'influence de ce framework, Facebook est aujourd'hui le détenteur du plus gros cluster Hadoop au monde.
+	</p>
+	<p>
+		Spark est un autre outil de gestion de données. Il facilite la traitement de données distribuées et peut donc être complémentaire à Hadoop. Sa particularité est que l'analyse de grands volumes de données peut se faire en mémoire, et le résultat peut ensuite être enregistrer. Il intègre lui aussi différents modules de machine-learning, de streaming, ou encore de calcul sur des graphes. Il fonctionne avec les langages Java, Scala, Python ou encore R.
+	</p>
+	<p>
+		Pour garantir l'efficacité de ces outils, il est conventionnelle de répondre au théorème de CAP pour gérer l'accès aux données. CAP étant l'acronyme de 3 principes essentiels :
+		<ul>
+			<li>C pour Consistency : tous les clients de la base voient les mêmes données, même en cas de mises à jour concurrentes</li>
+			<li>A pour Availability : la réponse est garantie pour chaque requête et à tout moment</li>
+			<li>P pour Partition tolerance : la base de données peut être réparties sur plusieurs serveurs</li>
+		</ul>
+	</p>
+	<p>
+		Il n'est pas possible de répondre aux 3 principes en même temps, mais 2 par 2 c'est possible. Se distinguent alors plusieurs types de base de données :
+		<ul>
+			<li>les SGBR ou "Système de Gestion de Base de Données Relationnelles"</li>
+		</ul>
+	</p>
 </body>
